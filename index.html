@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container">
+    <h1 class="form-heading">Add User</h1>
+    <form id="myForm">
+        <div class="mb-3">
+            <label for="name">Name</label>
+            <input type="text" class="form-class" id="name" />
+            <p class="errorMessage" id="nameErrorMsg"></p>
+        </div>
+        <div class="mb-3">
+            <label for="email">Email</label>
+            <input type="text" class="form-class" id="email" />
+            <p class="errorMessage" id="emailErrorMsg"></p>
+        </div>
+        <div class="mb-3">
+            <label for="status">Working Status</label>
+            <select class="form-class" id="status">
+                <option value="Active" selected>Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <h1 class="gender-field-heading">Gender</h1>
+            <input type="radio" id="genderMale" value="Male" name="gender" checked />
+            <label for="genderMale">Male</label>
+            <input type="radio" id="genderFemale" value="Female" class="ml-2" name="gender" />
+            <label for="genderFemale">Female</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+</body>
+</html>
