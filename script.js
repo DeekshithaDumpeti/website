@@ -25,7 +25,7 @@ nameEl.addEventListener("change", function(event) {
 
 emailEl.addEventListener("change", function(event) {
     if (event.target.value === "") {
-        emailErrorMsgEl.textContent = "need it *";
+        emailErrorMsgEl.textContent = "Required*";
     } else {
         emailErrorMsgEl.textContent = "";
     }
